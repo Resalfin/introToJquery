@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntroToJquery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="judul">Hello Brohh</h1>
+      <button class="btn">Tes</button>
+    </div>
+
+    <!-- https://code.jquery.com/jquery-3.6.0.min.js -->
+    <script src="jQuery.js"></script>
+    <script>
+      $(".btn").click(() => {
+        $(".judul").text("Mallumpa Sureng 🔥🔥🔥"),
+          $(".container").css("box-shadow", "0 9px 9px rgba(255, 0, 0, 0.9)"),
+          $(".judul").css("color", "#FF0000"),
+          $(".btn").hide();
+      });
+    </script>
+  </body>
+</html>
