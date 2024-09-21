@@ -1,0 +1,21 @@
+{
+  "name": "introtojquery",
+  "version": "1.0.0",
+  "main": "jQuery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^5.4.7"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
