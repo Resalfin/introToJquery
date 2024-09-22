@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "node -v && vite build",
+    "prebuild": "chmod -R 755 node_modules",
+    "build": "npx vite build",
     "serve": "vite preview"
   },
   "keywords": [],
