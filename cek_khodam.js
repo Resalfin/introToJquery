@@ -19,8 +19,8 @@ const cek_khodam = (element) => {
     let random = Math.floor(Math.random() * kodam.length);
 
     if (name) {
-      alert(`${name}, khodam anda adalah ${kodam[random]}`);
-      // $(".judul").text(`${name}, khodam anda adalah ${kodam[random]}`);
+      // alert(`${name}, khodam anda adalah ${kodam[random]}`);
+      $(".judul").text(`${name}, khodam anda adalah ${kodam[random]}`);
     } else {
       alert("Mohon masukkan nama Anda.");
     }
